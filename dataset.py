@@ -25,3 +25,5 @@ def Dataset(p):
 
     train_y=modular[train_indices]
     test_y=modular[test_indices]
+
+    return train_x,train_y,test_x,test_y
